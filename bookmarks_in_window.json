@@ -1,0 +1,26 @@
+{
+    "name": "Bookmarks in new window Application",
+    "title": "Open Bookmarks in new window",
+    "description": "Allows you to open bookmarks in new window/tab",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Bookmarks in new window",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "links_new_tab_window.js"
+                ],
+                "include-repo": {
+                    "name": "open-bookmarks-in-new-window"
+                }
+            },
+            "path": "communities",
+            "application": "Bookmarks in new window Application",
+            "state": "enabled"
+        }
+    ]
+}
